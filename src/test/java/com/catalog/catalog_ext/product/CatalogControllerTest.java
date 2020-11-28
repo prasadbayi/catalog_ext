@@ -64,7 +64,7 @@ class CatalogControllerTest {
 		String content = mvcResult.getResponse().getContentAsString();
 		Product product = mapFromJson(content, Product.class);
 		assertEquals(product.getName(), productName);
-		assertTrue(product.getId().longValue() == productId.longValue());
+		assertEquals(product.getId().longValue(), productId.longValue());
 	}
 
 }
