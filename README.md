@@ -3,7 +3,11 @@ Catalog, list of products &amp; its details, except price.
 
 Dependency
 ==========
-myRetail has a dependency on myRetail - https://github.com/prasadbayi/my_retail
+catalog_ext is an independent project, and consumed by myRetai - https://github.com/prasadbayi/my_retail
+
+Swagger Documentation
+==============================
+http://localhost:8080/swagger-ui.html#
 
 GET	http://localhost:8080/my_retail/products/{id}
 ================================================
